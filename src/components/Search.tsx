@@ -17,12 +17,16 @@ const Search = (props: Props) => {
         ref={keywordRef}
       />
       <button
+        className="search__btn"
         onClick={() => {
           const currentValue = keywordRef.current?.value;
           navigate("MatchStat", { state: { playerName: currentValue } });
         }}
       >
         search
+      </button>
+      <button className="clear__btn" onClick={() => localStorage.clear()}>
+        clear
       </button>
     </section>
   );

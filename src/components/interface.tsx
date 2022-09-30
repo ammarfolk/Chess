@@ -1,7 +1,7 @@
 export interface Matchinterface {
-    playerOne: string;
-    playerTwo: string;
-    scoreOne: number;
-    scoreTwo: number;
-    date: string;
-  }
+  playerOne: string;
+  playerTwo: string;
+  scoreOne: number;
+  scoreTwo: number;
+  date: string;
+}

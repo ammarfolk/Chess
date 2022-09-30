@@ -16,16 +16,16 @@ const NewMatch = (props: Props) => {
   const matchDate = useRef<HTMLInputElement>(null);
 
   function confirmMatch() {
-
     if (
       playerTwo.current!.value.length > 0 &&
       playerOne.current!.value.length > 0 &&
       Number(scoreOne.current!.value) >= 0 &&
+      Number(scoreOne.current!.value) == Number(scoreTwo.current!.value) &&
       Number(scoreTwo.current!.value) >= 0 &&
       matchDate.current!.value.length > 0
     ) {
-      sendToDatabase()
-    } else alert("Please, fill the match details");
+      sendToDatabase();
+    } else alert("Please, fill the match details correctly");
   }
   const sendToDatabase = () => {
     const newMatch: Matchinterface = {
@@ -82,7 +82,7 @@ const NewMatch = (props: Props) => {
               name="playerScore"
               className="player__info"
               type="number"
-              max= "5"
+              max="5"
               placeholder="ruselt 2"
               ref={scoreTwo}
             />

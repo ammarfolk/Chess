@@ -7,7 +7,6 @@ type Props = {
   database: Array<Matchinterface>;
 };
 
-
 const MatchStat = (props: Props) => {
   const { state } = useLocation();
   let playerName = "daemon targaryen";
@@ -18,16 +17,15 @@ const MatchStat = (props: Props) => {
   let matchesWon = 0;
   let matchesLost = 0;
 
-  props.database.forEach( (match) => {
+  props.database.forEach((match) => {
     if (match.playerOne.toLowerCase() == playerName) {
-      match.scoreOne > match.scoreTwo ? matchesWon++ : null 
-      match.scoreOne < match.scoreTwo ? matchesLost++ : null
+      match.scoreOne > match.scoreTwo ? matchesWon++ : null;
+      match.scoreOne < match.scoreTwo ? matchesLost++ : null;
     } else if (match.playerTwo.toLowerCase() == playerName) {
-      match.scoreTwo > match.scoreOne ? matchesWon++ : null 
-      match.scoreTwo < match.scoreOne ? matchesLost++ : null
+      match.scoreTwo > match.scoreOne ? matchesWon++ : null;
+      match.scoreTwo < match.scoreOne ? matchesLost++ : null;
     }
-  })
-
+  });
 
   return (
     <section className="stat">
@@ -46,9 +44,7 @@ const MatchStat = (props: Props) => {
         </section>
       </section>
     </section>
-
   );
-
 };
 
 export default MatchStat;

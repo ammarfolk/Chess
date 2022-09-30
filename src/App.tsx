@@ -26,8 +26,6 @@ export default function App() {
     }
   }, []);
 
- //localStorage.clear()
-
   return (
     <div>
       <Header />
