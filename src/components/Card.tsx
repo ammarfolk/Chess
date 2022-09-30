@@ -8,7 +8,7 @@ type Props = {
 
 const Card = (props: Props) => {
   return (
-    <section>
+    <section className="card__wrapper">
       {props.dataBase.map((match) => (
         <section
           className="card"
