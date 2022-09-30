@@ -1,0 +1,77 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
+.add__card{
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 1em;
+}
+
+
+.add__contant{
+    display: flex;
+    flex-direction: row;
+
+.player__one{display: flex; flex-direction: column;margin: 1em;}
+.player__two{display: flex; flex-direction: column;margin: 1em;}
+
+}
+
+
+.match__date{
+    padding: 0.4em;
+    margin: 0.2em;
+    text-align: center;
+    color: #171f2e;
+    width: 10em;
+    background: #ffffff;
+    border-radius: 4em;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.player__info{
+    padding: 0.4em;
+    margin: 0.2em;
+    text-align: center;
+    color: #171f2e;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 4em;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border: none;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.save{
+    padding: 0.4em;
+    width: 8em;
+    margin: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    color: #171f2e;
+    background: #ffffff;
+    border-radius: 4em;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border: none;
+    
+}

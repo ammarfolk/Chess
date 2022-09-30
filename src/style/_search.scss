@@ -1,0 +1,24 @@
+.search {
+  width: 80%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.search__player {
+  width: 100%;
+  height: 3em;
+  background: #ffffff;
+  border-radius: 4em;
+  border: none;
+  padding: 1em 2em 1em 2em;
+  color: #171f2e;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.search__player::placeholder {
+  opacity: 0.4;
+  color: #171f2e;
+}

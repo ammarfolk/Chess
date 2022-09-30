@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "playerOne": "Magnus Carlsen",
+    "playerTwo": "shakhriyar mamedyarov",
+    "scoreOne": 3,
+    "scoreTwo": 1,
+    "date": "25.09.2022"
+  },
+  {
+    "id": "2",
+    "playerOne": "wesley so",
+    "playerTwo": "aryan tari",
+    "scoreOne": 1,
+    "scoreTwo": 1.5,
+    "date": "22.09.2022"
+  },
+  {
+    "id": "3",
+    "playerOne": "anish giri",
+    "playerTwo": "viswanathan anand",
+    "scoreOne": 1,
+    "scoreTwo": 1.5,
+    "date": "20.09.2022"
+  },
+  {
+    "id": "4",
+    "playerOne": "wang hao",
+    "playerTwo": "maxim vachier-lagrave",
+    "scoreOne": 3,
+    "scoreTwo": 1,
+    "date": "14.09.2022"
+  },
+  {
+    "id": "5",
+    "playerOne": "teimour radjabov",
+    "playerTwo": "veselin topalov",
+    "scoreOne": 1,
+    "scoreTwo": 1.5,
+    "date": "04.09.2022"
+  },
+  {
+    "id": "6",
+    "playerOne": "shakhriyar mamedyarov",
+    "playerTwo": "wesley so",
+    "scoreOne": 3,
+    "scoreTwo": 1,
+    "date": "27.08.2022"
+  },
+  {
+    "id": "7",
+    "playerOne": "aryan tari",
+    "playerTwo": "wang hao",
+    "scoreOne": 1.5,
+    "scoreTwo": 1.5,
+    "date": "21.08.2022"
+  },
+  {
+    "id": "8",
+    "playerOne": "maxim vachier-lagrave",
+    "playerTwo": "Magnus Carlsen",
+    "scoreOne": 1,
+    "scoreTwo": 1.5,
+    "date": "03.08.2022"
+  },
+  {
+    "id": "9",
+    "playerOne": "veselin topalov",
+    "playerTwo": "teimour radjabov",
+    "scoreOne": 1,
+    "scoreTwo": 3,
+    "date": "30.07.2022"
+  },
+  {
+    "id": "10",
+    "playerOne": "viswanathan anand",
+    "playerTwo": "anish giri",
+    "scoreOne": 13,
+    "scoreTwo": 1,
+    "date": "27.07.2022"
+  },
+  {
+    "id": "11",
+    "playerOne": "daemon targaryen",
+    "playerTwo": "teimour radjabov",
+    "scoreOne": 1,
+    "scoreTwo": 3,
+    "date": "22.07.2022"
+  },
+  {
+    "id": "12",
+    "playerOne": "daemon targaryen",
+    "playerTwo": "anish giri",
+    "scoreOne": 13,
+    "scoreTwo": 1,
+    "date": "18.07.2022"
+  }
+]

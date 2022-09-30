@@ -1,0 +1,88 @@
+.card {
+  width: 80%;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.card__date {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 1em;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+
+
+.card__contant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .player__name {
+    padding: 0.4em;
+    text-align: center;
+    color: #171f2e;
+    width: 18em;
+    background: #ffffff;
+    border-radius: 4em;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: uppercase;
+  }
+
+  .player__result {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.4em;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.win {
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 4em;
+  background-color: #19d72c;
+  margin: 0.4em;
+}
+.lose {
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 4em;
+  background-color: #ee1c1c;
+  margin: 0.4em;
+}
+
+@media only screen and (max-width: 1235px) {
+  .card__contant {
+    .player__result{width: 140px}
+  .player__name {
+    width: 16em;
+    font-size: 1.2em;
+  }
+}
+}
+
+@media only screen and (max-width: 800px) {
+  .card__contant {
+    .player__result{font-size: 1em;width: 180px}
+  .player__name {width: 12em; font-size: 1em;}
+}
+}
+
+@media only screen and (max-width: 630px) {
+  .card__contant {.player__result{font-size: 1em;}}
+}
