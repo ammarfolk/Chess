@@ -15,10 +15,9 @@ COPY . .
 
 RUN npm run build
 
-
 EXPOSE 8080
 
 
 # CMD körs när man startar containern
 # CMD ["http-server", "dist", "-p", "1337"]
-CMD ["npm", "run", "start-backend"]
+CMD ["npm", "run"]
