@@ -20,7 +20,6 @@ const NewMatch = (props: Props) => {
       playerTwo.current!.value.length > 0 &&
       playerOne.current!.value.length > 0 &&
       Number(scoreOne.current!.value) >= 0 &&
-      Number(scoreOne.current!.value) == Number(scoreTwo.current!.value) &&
       Number(scoreTwo.current!.value) >= 0 &&
       matchDate.current!.value.length > 0
     ) {

@@ -1,9 +1,24 @@
-FROM node:16
-WORKDIR /Chess
-RUN npm install -g http-server
+FROM node:lts-alpine
+
+
+WORKDIR /app
+
+
 COPY package*.json ./
+
+
 RUN npm install
+
+
 COPY . .
+
+
 RUN npm run build
+
+
 EXPOSE 8080
-CMD ["http-server", "dist"]
+
+
+# CMD körs när man startar containern
+# CMD ["http-server", "dist", "-p", "1337"]
+CMD ["npm", "run", "start-backend"]

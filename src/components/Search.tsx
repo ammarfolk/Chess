@@ -7,6 +7,11 @@ type Props = {};
 const Search = (props: Props) => {
   let navigate = useNavigate();
   const keywordRef = useRef<HTMLInputElement>(null);
+  function clearbtn(props:Props) {
+    localStorage.clear()
+    location.reload()
+  }  
+
 
   return (
     <section className="search">
@@ -25,7 +30,7 @@ const Search = (props: Props) => {
       >
         search
       </button>
-      <button className="clear__btn" onClick={() => localStorage.clear()}>
+      <button className="clear__btn" onClick={clearbtn}>
         clear
       </button>
     </section>

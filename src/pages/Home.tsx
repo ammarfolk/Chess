@@ -18,7 +18,7 @@ function Home(props: Props) {
       <Card
         dataBase={props.database}
         onPlayerClick={(playerName) => {
-          navigate("MatchStat", { state: { playerName: playerName } })
+          navigate("MatchStat", { state: { playerName: playerName } });
         }}
       />
     </div>

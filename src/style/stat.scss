@@ -22,7 +22,16 @@
   height: 10em;
   margin-bottom: 2em;
 }
-
+.lose__title, .win__title{
+  padding: 0.4em;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  width: 10em;
+}
 .stat__info {
   padding: 0.4em;
   text-align: center;
