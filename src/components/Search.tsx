@@ -7,11 +7,10 @@ type Props = {};
 const Search = (props: Props) => {
   let navigate = useNavigate();
   const keywordRef = useRef<HTMLInputElement>(null);
-  function clearbtn(props:Props) {
-    localStorage.clear()
-    location.reload()
-  }  
-
+  function clearbtn(props: Props) {
+    localStorage.clear();
+    location.reload();
+  }
 
   return (
     <section className="search">

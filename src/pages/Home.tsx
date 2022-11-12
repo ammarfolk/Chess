@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Card from "../components/Card";
 import { Matchinterface } from "../components/interface";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 type Props = {
   database: Array<Matchinterface>;

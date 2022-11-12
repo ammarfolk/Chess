@@ -74,7 +74,7 @@
 @media only screen and (max-width: 1235px) {
   .card__contant {
     .player__result {
-      width: 140px;
+      width: 190px;
     }
     .player__name {
       width: 16em;
@@ -83,23 +83,19 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .card__contant {
-    .player__result {
-      font-size: 1em;
-      width: 180px;
-    }
-    .player__name {
-      width: 12em;
-      font-size: 1em;
-    }
-  }
-}
-
 @media only screen and (max-width: 630px) {
+  .card {
+    width: 90%;
+  }
   .card__contant {
-    .player__result {
+    .player__name {
+      padding: 0.25em;
+      width: 9em;
+      border-radius: 0.25em;
       font-size: 1em;
+    }
+    .player__result {
+      font-size: 1.25em;
     }
   }
 }

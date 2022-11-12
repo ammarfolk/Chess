@@ -8,6 +8,7 @@
   padding: 1em;
   background: rgba(255, 255, 255, 0.11);
   border-radius: 1em;
+  margin: 1em;
 }
 
 .add__contant {
@@ -74,4 +75,11 @@ input::-webkit-inner-spin-button {
   font-size: 1.4em;
   text-transform: uppercase;
   border: none;
+}
+
+@media only screen and (max-width: 630px) {
+  .card {width: 90%;}
+  .card__contant {
+  .player__name {padding: 0.25em;width: 9em;border-radius: 0.25em;font-size: 1em;}
+  .player__result {font-size: 1.25em;}}
 }

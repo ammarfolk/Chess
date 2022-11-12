@@ -52,3 +52,19 @@
   opacity: 0.4;
   color: #171f2e;
 }
+@media only screen and (max-width: 800px) {
+  .search {
+    width: 100%;
+    text-align: center;
+  }
+  .search__player {
+    width: 90%;
+    margin-bottom: 1em;
+  }
+  .search__btn {
+    width: 35%;
+  }
+  .clear__btn {
+    width: 20%;
+  }
+}
