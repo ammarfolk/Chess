@@ -17,7 +17,7 @@ const Search = (props: Props) => {
       <input
         className="search__player"
         type="text"
-        placeholder="Search for a palyer name.."
+        placeholder="Search for a player name.."
         ref={keywordRef}
       />
       <button

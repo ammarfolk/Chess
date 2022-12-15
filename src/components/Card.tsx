@@ -6,10 +6,24 @@ type Props = {
   onPlayerClick: (playerName: String) => void;
 };
 
-const Card = (props: Props) => {
+const SortByDate = (dateArray:Matchinterface[]) =>{
+  const sortedArray = dateArray.sort(function(a,b){
+    return a.epochtime > b.epochtime ? -1 : 0 
+    
+  });
+  return sortedArray
+}
+
+
+
+const Card = (props: Props) => { 
+  const sortedArray = SortByDate(props.dataBase)
+  console.log(sortedArray);
   return (
     <section className="card__wrapper">
-      {props.dataBase.map((match) => (
+      
+
+      {sortedArray.map((match) => (
         <section
           className="card"
           key={match.playerOne.concat(match.playerTwo) + match.scoreOne}

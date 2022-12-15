@@ -27,12 +27,14 @@ const NewMatch = (props: Props) => {
     } else alert("Please, fill the match details correctly");
   }
   const sendToDatabase = () => {
+    const matchdatedate= Date.parse(matchDate.current?.value||"");
     const newMatch: Matchinterface = {
       playerOne: playerOne.current?.value || "",
       playerTwo: playerTwo.current?.value || "",
       scoreOne: Number(scoreOne.current?.value) || 0,
       scoreTwo: Number(scoreTwo.current?.value) || 0,
       date: matchDate.current?.value || "",
+      epochtime:matchdatedate
     };
 
     props.updateDatabase(newMatch);
@@ -82,7 +84,7 @@ const NewMatch = (props: Props) => {
               className="player__info"
               type="number"
               max="5"
-              placeholder="ruselt 2"
+              placeholder="result 2"
               ref={scoreTwo}
             />
           </section>

@@ -4,4 +4,5 @@ export interface Matchinterface {
   scoreOne: number;
   scoreTwo: number;
   date: string;
+  epochtime:number;
 }

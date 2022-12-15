@@ -4,83 +4,101 @@
     "playerTwo": "shakhriyar mamedyarov",
     "scoreOne": 3,
     "scoreTwo": 1,
-    "date": "2022-09-25"
+    "date": "2022-09-25",
+    "epochtime": 1664056800000
+ 
   },
   {
     "playerOne": "wesley so",
     "playerTwo": "aryan tari",
     "scoreOne": 1,
     "scoreTwo": 4,
-    "date": "2022-09-22"
+    "date": "2022-09-22",
+    "epochtime": 1663797600000
   },
   {
     "playerOne": "anish giri",
     "playerTwo": "viswanathan anand",
     "scoreOne": 1,
     "scoreTwo": 4,
-    "date": "2022-09-20"
+    "date": "2022-09-20",
+    "epochtime": 1663624800000
   },
   {
     "playerOne": "wang hao",
     "playerTwo": "maxim vachier-lagrave",
     "scoreOne": 3,
     "scoreTwo": 1,
-    "date": "2022-09-14"
+    "date": "2022-09-14",
+    "epochtime": 1663106400000
   },
   {
     "playerOne": "teimour radjabov",
     "playerTwo": "veselin topalov",
     "scoreOne": 3,
     "scoreTwo": 2,
-    "date": "2022-09-04"
+    "date": "2022-09-04",
+    "epochtime": 1662242400000
+
   },
   {
     "playerOne": "shakhriyar mamedyarov",
     "playerTwo": "wesley so",
     "scoreOne": 3,
     "scoreTwo": 1,
-    "date": "2022-08-27"
+    "date": "2022-08-27",
+    "epochtime": 1661551200000
+
   },
   {
     "playerOne": "aryan tari",
     "playerTwo": "wang hao",
     "scoreOne": 3,
     "scoreTwo": 2,
-    "date": "2022-08-21"
+    "date": "2022-08-21",
+    "epochtime": 1661032800000
+
   },
   {
     "playerOne": "maxim vachier-lagrave",
     "playerTwo": "Magnus Carlsen",
     "scoreOne": 2,
     "scoreTwo": 1,
-    "date": "2022-08-03"
+    "date": "2022-08-03",
+    "epochtime": 1659477600000
+
   },
   {
     "playerOne": "veselin topalov",
     "playerTwo": "teimour radjabov",
     "scoreOne": 1,
     "scoreTwo": 3,
-    "date": "2022-07-30"
+    "date": "2022-07-30",
+    "epochtime": 1659132000000
+
   },
   {
     "playerOne": "viswanathan anand",
     "playerTwo": "anish giri",
     "scoreOne": 3,
     "scoreTwo": 1,
-    "date": "2022-07-27"
+    "date": "2022-07-27",
+    "epochtime": 1658872800000
   },
   {
     "playerOne": "daemon targaryen",
     "playerTwo": "teimour radjabov",
     "scoreOne": 1,
     "scoreTwo": 3,
-    "date": "2022-07-22"
+    "date": "2022-07-22",
+    "epochtime": 1658440800000
   },
   {
     "playerOne": "daemon targaryen",
     "playerTwo": "anish giri",
     "scoreOne": 2,
     "scoreTwo": 3,
-    "date": "2022-07-18"
+    "date": "2022-07-18",
+    "epochtime": 1658095200000
   }
 ]
